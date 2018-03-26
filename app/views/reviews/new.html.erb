@@ -1,0 +1,9 @@
+<div class="container">
+  <%= simple_form_for([@restaurant, @review]) do |r| %>
+  <%= r.input :name %>
+  <%= r.input :location %>
+  <%= r.input :position %>
+  <%= r.input :tips %>
+  <%= r.button :submit, class: "btn btn-primary"%>
+  <% end %>
+</div>
